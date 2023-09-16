@@ -7,16 +7,22 @@ int main(){
 	scanf("%d", &N);
 	
 	for (i = 1; i <= N; i++) {
-		j = 0;
 		for (espace = 1; espace <= N - i; espace++) {
 			printf("  ");
 		}
 		
-		while (j != 2 * i - 1) {
+//		j = 0;
+//		while (j != 2 * i - 1) {
+//			printf("* ");
+//			j++;
+//		}
+
+		for(j = 0; j < (2 * i) - 1; j++){
 			printf("* ");
-			j++;
 		}
+		
 		printf("\n");
+		
    }
 	
 	return 0;

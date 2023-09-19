@@ -5,7 +5,6 @@ int main(){
 	int i=0;
 	int j;
 	int somme = 0;
-	int max = 0;
 	int Q;
 	
 	printf("Vous allez inserer une serie d'entiers positifs inferieurs a 100 terminee par 0: \n");
@@ -28,6 +27,7 @@ int main(){
 		i++;
 	}while(1);
 	
+	int max = serie[0];
 	for(j = 0; j < i; j++){
 		somme = somme + serie[j];
 		if(serie[j] > max){

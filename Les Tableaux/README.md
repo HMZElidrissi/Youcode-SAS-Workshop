@@ -51,8 +51,7 @@ Ecrire un programme qui lit les dimensions L et C d'un tableau T à deux dimensi
 Ecrire un programme qui transfère un tableau M à deux dimensions L et C (dimensions maximales: 10 lignes et 10 colonnes) dans un tableau V à une dimension L*C..
 
 
-   /         \
-   | a b c d |        /                         \
-   | e f g h |  ==>   | a b c d e f g h i j k l |
-   | i j k l |        \                         /
-   \         /
+            
+    a b c d                                  
+    e f g h   ==>    a b c d e f g h i j k l 
+    i j k l                                 
